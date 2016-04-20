@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: CloudFront Preview Fix
-Plugin URI:
-Description: WPログイン時にパーマリンクに記事変更日付を含み、プレビューが最新になるようにする
-Version: 0.5
-Author:
-Author URI:
+Plugin URI:https://github.com/amimoto-ami/cloudfront-preview-fix
+Description: Fix CloudFront Preview Plugin
+Version: 0.5.0
+Author:wokamoto
+Author URI:https://dogmap.jp/
 */
 add_action( 'init', function(){
 	$cf_fix = cloudfront_preview_fix::get_instance();
