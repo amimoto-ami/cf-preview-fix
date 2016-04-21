@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CloudFront Preview Fix
+Plugin Name: CF Preview Fix
 Plugin URI:https://github.com/amimoto-ami/cloudfront-preview-fix
 Description: Fix CloudFront Preview Plugin
 Version: 0.5.0
@@ -8,11 +8,11 @@ Author:wokamoto
 Author URI:https://dogmap.jp/
 */
 add_action( 'init', function(){
-	$cf_fix = cloudfront_preview_fix::get_instance();
+	$cf_fix = CF_preview_fix::get_instance();
 	$cf_fix->add_hook();
 });
 
-class cloudfront_preview_fix{
+class CF_preview_fix{
 	private static $instance;
 
 	private function __construct() {}

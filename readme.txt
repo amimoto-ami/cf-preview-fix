@@ -1,4 +1,4 @@
-=== CloudFront Preview Fix ===
+=== CF Preview Fix ===
 Contributors: megumithemes,wokamoto,hideokamoto
 Tags: cloudfront
 Requires at least: 4.4.2
