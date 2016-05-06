@@ -1,5 +1,5 @@
 === CF Preview Fix ===
-Contributors: megumithemes,wokamoto,hideokamoto
+Contributors: amimotoami,megumithemes,wokamoto,hideokamoto
 Tags: cloudfront
 Requires at least: 4.4.2
 Tested up to:4.4.2
